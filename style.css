@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: white;
+  text-align: center;
+}
+
+#game {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+
+#xpBarContainer {
+  width: 100%;
+  background: #334155;
+  height: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+#xpBar {
+  height: 100%;
+  width: 0%;
+  background: limegreen;
+  transition: 0.3s;
+}
